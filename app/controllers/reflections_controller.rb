@@ -1,0 +1,3 @@
+class ReflectionsController < ApplicationController
+end
+
