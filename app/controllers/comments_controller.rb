@@ -1,1 +1,3 @@
-comments_controller.rb
+class CommentsController < ApplicationController
+end
+
