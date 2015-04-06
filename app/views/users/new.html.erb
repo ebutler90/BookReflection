@@ -1,0 +1,12 @@
+<h1>BookReview</h1>
+
+<p>Love a Book? Hate a Book? Feel iffy about a Book? Want to talk about it? Cool. </p>
+
+
+<%= form_for @user, url: {action: "create"}, html: {class: "new_user_form"} do |f| %>
+  <%= f.text_field :name, :placeholder => "First and Last Name"%> <br>
+  <%= f.text_field :email, :placeholder => "Email Address"%> <br>
+  <%= f.password_field :password, :placeholder => "Password"%> <br>
+  <%= f.submit "Create Account" %>
+<% end %>
+
